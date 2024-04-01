@@ -1,4 +1,4 @@
-# ** 🔵 \[4조\]  Late-Night-Buscall 🔵 **
+# **🔵 \[4조\]  Late-Night-Buscall 🔵**
 
 - 2024-1 소프트웨어 공학 4조 팀 프로젝트
 - 개발 방법론을 이용하여 프로젝트를 계획하여 개발합니다.
@@ -17,8 +17,7 @@
   컴퓨터공학과|이호연
   컴퓨터공학과|최지우
 
-
-  **개발 방법론** : 폭포수 (Waterfall Methodology)
+  **개발 방법론** : 폭포수(Waterfall Methodology)
 
 ---
 
