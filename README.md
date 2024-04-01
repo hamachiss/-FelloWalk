@@ -17,7 +17,7 @@
   컴퓨터공학과|이호연
   컴퓨터공학과|최지우
  
-**개발 방법론**: 폭포(Waterfall Methodology)
+  ** 개발 방법론 ** : 폭포수 (Waterfall Methodology)
 
 ---
 
