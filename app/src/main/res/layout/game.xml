@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:text="   단계별 도전과제"
+            android:textSize="50sp"
+            />
+        <android.widget.Button
+            android:id="@+id/btnToday"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=" 하루 도전 과제"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/solid_button"
+            android:layout_margin="4dp"
+            />
+
+        <android.widget.Button
+            android:id="@+id/btnWeek"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="주간 도전 과제"
+            android:textSize="40sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF"
+            />
+        <android.widget.Button
+            android:id="@+id/btnMonth"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="월간 도전 과제"
+            android:textSize="40sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF"
+            />
+        <android.widget.Button
+            android:id="@+id/btnYear"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="년간 도전 과제"
+            android:textSize="40sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

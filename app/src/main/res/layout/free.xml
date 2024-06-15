@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자유게시판 커뮤니티"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- 게시물 제목 입력 -->
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목" />
+
+    <!-- 게시물 내용 입력 -->
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="내용 작성하기" />
+
+    <!-- 게시물 추가 버튼 -->
+    <android.widget.Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid_button"
+        android:text="저장" />
+
+    <!-- 게시물 수정 후 저장 버튼 -->
+    <android.widget.Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid_button"
+        android:text="수정"
+        android:visibility="gone" />
+
+    <!-- 게시물 목록을 표시할 레이아웃 -->
+    <LinearLayout
+        android:id="@+id/postsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp" />
+
+</LinearLayout>

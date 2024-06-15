@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <com.bluehomestudio.luckywheel.LuckyWheel
+        android:id="@+id/luck_wheel"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        app:background_color="@android:color/white" />
+
+    <android.widget.Button
+        android:id="@+id/spin_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/luck_wheel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="돌리기"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:background="@drawable/solid_button"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이벤트 공지"
+        android:background="#296BEF"
+        android:textColor="#FFFFFF"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#FFFFFF">
+
+
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+</LinearLayout>

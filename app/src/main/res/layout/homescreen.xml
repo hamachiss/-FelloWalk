@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Event">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logo1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="가입된 ID입력란"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="가입된 Pw입력란"
+            android:textSize="20sp" />
+        <!--리니어레이아웃 수평이 기본방향-->
+
+
+        <android.widget.Button
+            android:id="@+id/mainBtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="로그인버튼"
+            android:textSize="20sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+
+        <android.widget.Button
+            android:id="@+id/mainBtnJoin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="회원가입버튼"
+            android:textSize="20sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+
+
+        <android.widget.Button
+            android:id="@+id/mainBtnNaver"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="네이버 간편로그인"
+            android:textSize="20sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+
+        <android.widget.Button
+            android:id="@+id/mainBtnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="구글 간편로그인"
+            android:textSize="20sp"
+            android:background="@drawable/solid_button"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
